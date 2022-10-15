@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url("CursedTimerUlil-Aznm.woff") format('woff');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 100%;
+}
+
+.column {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.shot-time {
+    position: relative;
+    top: 100px;
+    display: grid;
+    justify-items: center;
+}
+
+.shot-time .column_title {
+    font-size: 24px;
+}
+
+#shot-time-el {
+    text-align: right;
+    width: 2ch;
+    margin: 10px auto 10 auto;
+    font-family: "Cursed Timer ULiL";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    color: #F94F6D;
+    background-color: #080001;
+    border: solid;
+    border-color: #080001;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+
+.buttons {
+    display:flex;
+    justify-content: space-between;
+}
+
+.column_title {
+    margin: 0;
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+h4 {
+    margin: 20px 0 26px 0;
+    font-family: "Cursed Timer ULiL";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: right;
+    color: #F94F6D;
+    background-color: #080001;
+    border: solid;
+    border-color: #080001;
+    border-radius: 5px;
+    width: 3ch;
+}
+
+h4, button {
+    padding: calc(1ch * 0.15) 3px 0 3px;
+    line-height: 0.9;
+}
+
+.add_points {
+    font-family: "Cursed Timer ULiL";
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.timer_btn {
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    width: 2ch;
+    height: 25px;
+    padding: 0 3px 0 3px;
+    margin: 10px 0 0 0;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+span {
+    font-family: "Cursed Timer ULiL";
+    font-size: 15px;
+}

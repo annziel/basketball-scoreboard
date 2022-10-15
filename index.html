@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <!-- clearing default browser settings: -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3 class="column_title">HOME</h3>
+                <h4 id="home-points-el">0</h4>
+                <div class="buttons">
+                    <button class="add_points" onclick="homeAddPoints(1)">+1</button>
+                    <button class="add_points" onclick="homeAddPoints(2)">+2</button>
+                    <button class="add_points" onclick="homeAddPoints(3)">+3</button>
+                </div>
+            </div>
+            
+            <div class="column shot-time">
+                <h3 class="column_title">SHOT TIME</h3>
+                <h4 id="shot-time-el">24</h4>
+                <button class="timer_btn" onclick="toggleShotTimer()">
+                    <span>START/STOP</span>
+                </button>
+                <button class="timer_btn" onclick="resetShotTimer()">
+                    <span>RESET</span>
+                </button>
+            </div>
+            
+            <div class="column">
+                <h3 class="column_title">GUEST</h3>
+                <h4 id="guest-points-el">0</h4>
+                <div class="buttons">
+                    <button class="add_points" onclick="guestAdd1Point()">+1</button>
+                    <button class="add_points" onclick="guestAdd2Points()">+2</button>
+                    <button class="add_points" onclick="guestAdd3Points()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
