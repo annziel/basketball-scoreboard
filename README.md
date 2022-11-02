@@ -21,7 +21,7 @@ I've met the stretch goals proposed by the teacher and added a leader highlight 
 - Add a period counter
 - Responsiveness in the portrait mode
 
-### How it looks like:
+### Here's what it looks like:
 ##### When the game is about to start
 <img width="661" alt="basketball start of the game" src="https://user-images.githubusercontent.com/115597522/195963769-f13e178d-ba62-4582-8561-6974b75b8989.png">
 
